@@ -45,7 +45,7 @@ export default defineConfig(({ mode }) => {
         server: {
             proxy: {
                 [env.VITE_APP_BASE_PREFIX + '/front']: {
-                    target: 'http://39.97.218.60/',
+                    target: 'https://mock.apifox.cn/m1/2401164-0-default',
                     changeOrigin: true,
                     rewrite: (path) => path.replace(env.VITE_APP_BASE_PREFIX, '')
                 }

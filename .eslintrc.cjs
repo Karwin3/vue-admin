@@ -16,6 +16,7 @@ module.exports = {
         // 首行缩进 4 个字符
         indent: ['error', 4],
         // 关闭组件命名规则
-        'vue/multi-word-component-names': 'off'
+        'vue/multi-word-component-names': 'off',
+        'space-before-function-paren': 'off'
     }
 }

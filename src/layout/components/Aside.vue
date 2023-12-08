@@ -21,7 +21,7 @@ import { isCollapse } from './state'
                     </el-icon>
                     <span>管理相关</span>
                 </template>
-                <el-menu-item index="2-1">
+                <el-menu-item index="/test">
                     <el-icon>
                         <IEpSetting />
                     </el-icon>
